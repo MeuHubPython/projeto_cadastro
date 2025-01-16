@@ -5,8 +5,9 @@ de pessoas carentes para um programa social. O aplicativo deve coletar os
 dados dos inscritos e armazená-los em um banco de dados seguro. Além disso,
 deve ser capaz de gerar um arquivo PDF contendo as informações de cada
 inscrito para facilitar a gestão do programa.
+
 ## Requisitos Funcionais:
-1. Cadastro de Usuário:
+### 1. Cadastro de Usuário:
 
 • O aplicativo deve permitir que os usuários se cadastrem
 fornecendo informações pessoais, como nome completo, idade,
@@ -17,7 +18,7 @@ outros dados relevantes.
 credenciais de acesso (por exemplo, e-mail e senha) para que
 possam acessar o aplicativo posteriormente.
 
-3. Coleta de Dados:
+### 2. Coleta de Dados:
 
 •O aplicativo deve fornecer um formulário de inscrição com
 campos para coletar informações detalhadas sobre a situação
@@ -29,7 +30,7 @@ entre outros.
 preencher, levando em consideração a possível falta de
 familiaridade com tecnologia por parte dos usuários.
 
-4. Armazenamento de Dados:
+### 3. Armazenamento de Dados:
 
 • Os dados coletados dos inscritos devem ser armazenados em um
 banco de dados seguro e confiável, garantindo a privacidade e a
@@ -38,7 +39,7 @@ proteção das informações pessoais.
 • É necessário implementar mecanismos de segurança para
 proteger os dados contra acesso não autorizado.
 
-5. Geração de PDF:
+### 4. Geração de PDF:
 
 • O aplicativo deve ter a capacidade de gerar um arquivo PDF
 contendo todas as informações fornecidas pelo inscrito no
@@ -47,7 +48,7 @@ momento do cadastro.
 • O PDF deve ser formatado de maneira clara e organizada,
 permitindo a impressão ou compartilhamento fácil do documento.
 
-6. Gerenciamento de Inscrições:
+### 5. Gerenciamento de Inscrições:
 
 • O aplicativo deve fornecer uma interface de gerenciamento de
 inscrições para que os administradores do programa social
@@ -59,28 +60,28 @@ e a tomada de decisões.
 
 ## Requisitos Não Funcionais:
 
-1. Interface de Usuário Intuitiva:
+### 1. Interface de Usuário Intuitiva:
 
 • A interface do aplicativo deve ser intuitiva e de fácil utilização,
 considerando a possível falta de familiaridade dos usuários com
 dispositivos móveis.
 
-2. Disponibilidade Offline:
+### 2. Disponibilidade Offline:
 
 • O aplicativo deve ser capaz de funcionar offline, permitindo que
 os usuários preencham o formulário de inscrição mesmo sem
 conexão à internet. Os dados serão sincronizados
 automaticamente quando a conexão for restabelecida.
 
-3. Compatibilidade:
+### 3. Compatibilidade:
 
 • O aplicativo deve ser desenvolvido para ser compatível com os
 principais sistemas operacionais móveis, como Android e iOS.
 
-4. Segurança:É fundamental garantir a segurança dos dados armazenados,
+### 4. Segurança:É fundamental garantir a segurança dos dados armazenados,
 implementando práticas de criptografia e autenticação adequadas.
 
-5. Escalabilidade:
+### 5. Escalabilidade:
 
 • O sistema deve ser projetado para lidar com um grande número
 de inscrições e ser escalável, permitindo o crescimento do
