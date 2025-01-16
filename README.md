@@ -14,7 +14,8 @@ outros dados relevantes.
 • Os usuários devem ser capazes de criar uma conta usando suas
 credenciais de acesso (por exemplo, e-mail e senha) para que
 possam acessar o aplicativo posteriormente.
-2. Coleta de Dados:O aplicativo deve fornecer um formulário de inscrição com
+2. Coleta de Dados:
+•O aplicativo deve fornecer um formulário de inscrição com
 campos para coletar informações detalhadas sobre a situação
 socioeconômica dos inscritos, como renda familiar, número de
 membros da família, despesas mensais, nível de escolaridade,
@@ -22,26 +23,26 @@ entre outros.
 • É importante garantir que os campos sejam intuitivos e fáceis de
 preencher, levando em consideração a possível falta de
 familiaridade com tecnologia por parte dos usuários.
-3. Armazenamento de Dados:
+4. Armazenamento de Dados:
 • Os dados coletados dos inscritos devem ser armazenados em um
 banco de dados seguro e confiável, garantindo a privacidade e a
 proteção das informações pessoais.
 • É necessário implementar mecanismos de segurança para
 proteger os dados contra acesso não autorizado.
-4. Geração de PDF:
+5. Geração de PDF:
 • O aplicativo deve ter a capacidade de gerar um arquivo PDF
 contendo todas as informações fornecidas pelo inscrito no
 momento do cadastro.
 • O PDF deve ser formatado de maneira clara e organizada,
 permitindo a impressão ou compartilhamento fácil do documento.
-5. Gerenciamento de Inscrições:
+6. Gerenciamento de Inscrições:
 • O aplicativo deve fornecer uma interface de gerenciamento de
 inscrições para que os administradores do programa social
 possam visualizar, editar e aprovar as inscrições.
 • Os administradores devem ter a capacidade de pesquisar e filtrar
 inscrições com base em critérios específicos para facilitar a análise
 e a tomada de decisões.
-•
+
 ## Requisitos Não Funcionais:
 1. Interface de Usuário Intuitiva:
 • A interface do aplicativo deve ser intuitiva e de fácil utilização,
